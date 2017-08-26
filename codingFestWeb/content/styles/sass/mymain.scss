@@ -1,16 +1,19 @@
 ﻿body {
   background-color: #000000;
 }
-
-.container {
+.container-fluid {
+    padding:0;
+}
+.container-main {
   background: #000000 url("../../images/background.jpg") no-repeat right;
-  background-size: contain;
+  background-size: auto 400px;
   width: 100%;
 }
 
-.main-page {
+.main-page-phi {
   margin-left: 100px;
-  margin-top: 150px;
+  /*margin-top: 150px;*/
+  height:100vh;
 }
 
 .main-name {
@@ -48,9 +51,13 @@ margin-top: 40px;
   padding-right: 30px;
 }
 
-.header {
+.header-phi {
   font-size: 120px;
   font-family: "PT Sans narrow", 'Roboto', sans-serif;
   font-weight: 100;
   color: #A4FFC4;
+}
+
+body {
+    background-color:black !important;
 }
