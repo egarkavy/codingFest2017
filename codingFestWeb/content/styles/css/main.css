@@ -3,49 +3,42 @@
   .class .class-that-in-upper-class {
     background-color: white; }
 
-body {
-  background-color: #000000; }
+.log {
+  padding-left: 25px !important;
+  padding-right: 0px !important; }
 
-.container {
-  background: #000000 url("../../images/background.jpg") no-repeat right;
-  background-size: contain;
-  width: 100%; }
+.sign {
+  padding-left: 3px !important;
+  padding-right: 100px !important; }
 
-.main-page {
-  margin-left: 100px;
-  margin-top: 150px; }
+.logo {
+  padding-left: 100px !important;
+  color: #A4FFC4 !important; }
 
-.main-name {
-  font-size: 22px;
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff; }
+.padding-left {
+  padding-left: 250px; }
 
-.main-but {
-  margin-top: 40px;
-  border: solid;
-  border-color: #ef9200;
-  background-color: #000000;
-  color: #ef9200; }
+.padding-left-for-cart {
+  padding-left: 150px; }
 
-.main-but:hover {
-  color: #A4FFC4;
-  border-color: #A4FFC4; }
+.lang-en {
+  padding-left: 5px !important;
+  padding-right: 0px !important; }
 
-.main-but:active {
-  border-style: groove;
-  background-color: #100f10; }
+.lang-ru {
+  padding-left: 3px !important;
+  padding-right: 40px !important; }
 
-.btn:hover,
-.btn:active {
-  color: #A4FFC4; }
+.nav-background {
+  background-color: #1b1b1b !important; }
 
-.btn {
-  font-size: 22px;
-  padding-left: 30px;
-  padding-right: 30px; }
+a {
+  color: #ffffff !important; }
 
-.header {
-  font-size: 120px;
-  font-family: "PT Sans narrow", 'Roboto', sans-serif;
-  font-weight: 100;
-  color: #A4FFC4; }
+.raund {
+  color: #1b1b1b;
+  border-radius: 100%;
+  background-color: #A4FFC4;
+  width: 20px;
+  display: inline-block;
+  text-align: center; }
