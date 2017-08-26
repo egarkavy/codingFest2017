@@ -476,6 +476,12 @@ table {
 .back-button .back-icon:hover {
   background: url(../i/back.png) no-repeat bottom center; }
 
+.margin-top-100 {
+  margin-top: 100px; }
+
+.main-imagess {
+  border: 2px solid #A4FFC4; }
+
 .logo {
   padding-left: 50px !important;
   padding-right: 50px !important;

@@ -1,4 +1,4 @@
-﻿var temp = "<div class='brick' style='width:{width}px;'><img src='content/images/{index}.jpg' width='100%'></div>";
+﻿var temp = "<div class='brick' style='width:{width}px;'><img class='main-imagess' src='content/images/{index}.jpg' width='100%'></div>";
 var w = 1, h = 1, html = '', limitItem = 4;
 for (var i = 0; i < limitItem; ++i) {
     w = 1 + 3 * Math.random() << 0;
@@ -18,4 +18,9 @@ wall.reset({
 var images = wall.container.find('.brick');
 images.find('img').load(function () {
     wall.fitWidth();
+});
+
+
+$(".main-imagess").bind("hover", (event) => {
+    
 });
