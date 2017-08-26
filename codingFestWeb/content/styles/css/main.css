@@ -524,13 +524,14 @@ body {
 
 .container-main {
   background: #000000 url("../../images/background.jpg") no-repeat right;
-  background-size: auto 400px;
+  background-size: auto 80vh;
   width: 100%; }
 
 .main-page-phi {
   margin-left: 100px;
   /*margin-top: 150px;*/
-  height: 100vh; }
+  height: 100vh;
+  padding-top: 150px; }
 
 .main-name {
   font-size: 22px;
