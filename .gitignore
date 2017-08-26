@@ -180,3 +180,5 @@ codingFestWeb/node_modules
 .idea/vcs.xml
 .idea/repo.iml
 .idea/modules.xml
+
+codingFestWeb/content/styles/css/main.css
