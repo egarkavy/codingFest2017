@@ -21,14 +21,16 @@
 
 .lang-en {
   padding-left: 5px !important;
-  padding-right: 0px !important; }
+  padding-right: 0px !important;
+  color: #A4FFC4 !important; }
 
 .lang-ru {
   padding-left: 3px !important;
   padding-right: 40px !important; }
 
 .nav-background {
-  background-color: #1b1b1b !important; }
+  background-color: #1b1b1b !important;
+  border: none; }
 
 a {
   color: #ffffff !important; }
@@ -59,15 +61,15 @@ a {
   display: inline-block !important;
   color: #A4FFC4; }
 
-.face {
-  padding-left: 250px; }
-
 .padding-top {
   padding-top: 15px;
   padding-left: 15px; }
 
 .face {
   padding-left: 250px; }
+
+.pay {
+  padding-left: 450px; }
 
 .main-page {
   margin-left: 150px;
