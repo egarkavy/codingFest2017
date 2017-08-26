@@ -547,12 +547,15 @@ a {
 body {
   background-color: #000000; }
 
+nav {
+  border: 0 !important; }
+
 .container-fluid {
   padding: 0; }
 
 .container-main {
   background: #000000 url("../../images/background.jpg") no-repeat right;
-  background-size: auto 80vh;
+  background-size: auto 90vh;
   width: 100%; }
 
 .main-page-phi {
@@ -581,14 +584,12 @@ body {
   border-style: groove;
   background-color: #100f10; }
 
-.btn:hover,
-.btn:active {
-  color: #A4FFC4; }
-
-.btn {
+.btn-fil {
   font-size: 22px;
   padding-left: 30px;
   padding-right: 30px; }
+  .btn-fil:hover, .btn-fil:active {
+    color: #A4FFC4; }
 
 .header-phi {
   font-size: 120px;
