@@ -176,3 +176,7 @@ pip-log.txt
 .vs/
 bundles/
 codingFestWeb/node_modules
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/repo.iml
+.idea/modules.xml

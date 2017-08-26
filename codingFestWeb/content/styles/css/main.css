@@ -1,2 +1,4 @@
 .class {
   background-color: black; }
+  .class .class-that-in-upper-class {
+    background-color: white; }
