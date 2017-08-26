@@ -3,5 +3,49 @@
   .class .class-that-in-upper-class {
     background-color: white; }
 
+body {
+  background-color: #000000; }
+
+.container {
+  background: #000000 url("../../images/background.jpg") no-repeat right;
+  background-size: contain;
+  width: 100%; }
+
 .main-page {
-  font-size: 25px; }
+  margin-left: 100px;
+  margin-top: 150px; }
+
+.main-name {
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff; }
+
+.main-but {
+  margin-top: 40px;
+  border: solid;
+  border-color: #ef9200;
+  background-color: #000000;
+  color: #ef9200; }
+
+.main-but:hover {
+  color: #A4FFC4;
+  border-color: #A4FFC4; }
+
+.main-but:active {
+  border-style: groove;
+  background-color: #100f10; }
+
+.btn:hover,
+.btn:active {
+  color: #A4FFC4; }
+
+.btn {
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.header {
+  font-size: 120px;
+  font-family: "PT Sans narrow", 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #A4FFC4; }
